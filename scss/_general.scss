@@ -1,0 +1,34 @@
+/* ///////////////////Generales/////////////////// */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    background-color: #142850;
+}
+
+.col {background-color: #142850;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {background-color: #142850;
+}
+
+
+
+a {
+    color: #00A8CC; /* Cambia el color del enlace */
+    /* Agrega más estilos según sea necesario */
+    font-size: 1rem;
+  }
+
+
+  /* ///////////////////Divisor de seccion/////////////////// */
+.divisor-01 {
+    background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
+    height: 3rem; /* Altura de la fila en rem */
+  }
+
+

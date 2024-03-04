@@ -1,0 +1,22 @@
+/* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
+.custom-accordion-text {
+  color: #243f68; /* Cambia el color del texto de las respuestas */
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: #27496d;
+}
+
+.accordion-button {
+background-color: #27496d;
+color: #fff;
+}
+
+.accordion-button.collapsed {
+  color:  #fff; /* Cambia el color de la fuente cuando el botón está colapsado */
+}
+
+.accordion-button:not(.collapsed) {
+  color:#fff; /* Cambia el color del título del ítem cuando el acordeón está desplegado */
+}

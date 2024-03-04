@@ -1,0 +1,58 @@
+/* ///////////////////Clases para CARDS/////////////////// */
+
+.cards {
+  max-height: 28rem;
+  background-color: #142850;
+  border-radius: 14px;
+  padding: 1.5rem; /* Utilizamos unidades relativas para el relleno */
+  margin: 1.5rem; /* Utilizamos unidades relativas para el margen */
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  color: #c1dadf;
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cards__img {
+  max-width: 100%; 
+  height: auto;
+  margin-bottom: 1rem; 
+}
+
+
+.cards__button__img {
+  max-width: 100%; 
+  height: auto; 
+  margin-left: 0.5rem;
+}
+
+.cards__title {
+  font-size: 1rem; 
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #00a8cc;
+}
+
+.cards__subtitle {
+  font-size: 0.8rem;
+  font-weight: 400;   
+}
+
+.cards__description {
+  font-size: 0.8rem; 
+  text-align: center;  
+}
+
+.btn-custom-pm {
+  font-size: 0.9rem; 
+  text-align: center;
+  background-image: linear-gradient(to bottom, #00a8cc, #0c7b93); 
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 100%;
+}

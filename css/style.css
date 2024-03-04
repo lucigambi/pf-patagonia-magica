@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    box-sizing: border-box;   
+}
+
+
+/* ///////////////////Generales/////////////////// */
+html {
+    font-size: 16px;    
+}
+
+body {
+    margin: 0px;
+    background-color: #142850;
+}
+
+.col {background-color: #142850;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {background-color: #142850;
+}
+
+.resaltado {
+    background-color: #00A8CC; /* Color de fondo personalizado */
+    color: #ffffff; /* Color de texto */
+    padding: 0.3rem; /* Relleno en todos los lados */
+  }
+
+a {
+    color: #00A8CC; /* Cambia el color del enlace */
+    /* Agrega más estilos según sea necesario */
+    font-size: 1rem;
+  }
+
+
+  /* ///////////////////Divisor de seccion/////////////////// */
+.divisor-01 {
+    background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
+    height: 3rem; /* Altura de la fila en rem */
+  }
+
+
+
+  /* ///////////////////Mis Styles de TEXTO/////////////////// */
+.style-text-01 {
+    font-size: 6.343rem;
+    font-weight: 600;
+}
+
+.style-text-02 {
+    font-size: 3.925rem;
+    font-weight: 600;
+}
+
+.style-text-03r {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.style-text-03b {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.style-text-04b {
+    font-size: 0.927rem;
+    font-weight: 600;
+}
+
+.style-text-04r {
+    font-size: 0.927rem;
+    font-weight: 400;
+}
+
+.style-text-045r {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.style-text-045b {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.style-text-05 {
+    font-size: 0.573rem;
+    font-weight: 600;
+}
+
+.style-text-06 {
+    font-size: 0.354rem;
+    font-weight: 600;
+}
+
+
+
+
+/* ///////////////////Mi paleta de colores/////////////////// */
+
+.color-00 {
+    color: #0d1a35;
+}
+
+.color-01 {
+    color: #142850;
+}
+
+.color-02 {
+    color: #243f68;
+}
+
+.color-03 {
+    color: #27496d;
+}
+
+.color-04 {
+    color: #0c7b93;
+}
+
+.color-05 {
+    color: #00A8CC;
+}
+
+.color-06 {
+    color: #C1DADF;
+}
+
+
+
+
+
+
+/* ///////////////////CLASES PARA NAVBAR DE BOOSTRAP/////////////////// */
+.bg-body-tertiary {
+    --bs-bg-opacity: 0; /* Fondo tranparente de nav */
+}
+
+/* Estilo para los enlaces de navbar */
+.navbar-nav .nav-link {
+    color: #fff; /* Cambia el color del texto de los enlaces */
+}
+
+/* Estilo para los enlaces al pasar el mouse */
+.navbar-nav .nav-link:hover {
+    color: #00A8CC; /* Cambia el color del texto de los enlaces al pasar el mouse */
+}
+
+/* Estilo para boton de search en NAVBAR */
+.btn-custom {
+    background: linear-gradient(to bottom, #0c7b93, #243f68); /* Degradado de naranja a rojo */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Color del texto del botón */
+    /* Puedes añadir más estilos según sea necesario */
+}
+
+
+
+
+
+/* ///////////////////Clases para CARDS/////////////////// */
+
+.cards {
+    max-height: 28rem;
+    background-color: #142850;
+    border-radius: 14px;
+    padding: 1.5rem; /* Utilizamos unidades relativas para el relleno */
+    margin: 1.5rem; /* Utilizamos unidades relativas para el margen */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: #c1dadf;
+    box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
+}
+
+.cards__img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 1rem; 
+}
+
+
+.cards__button__img {
+    max-width: 100%; 
+    height: auto; 
+    margin-left: 0.5rem;
+}
+
+.cards__title {
+    font-size: 1rem; 
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #00a8cc;
+}
+
+.cards__subtitle {
+    font-size: 0.8rem;
+    font-weight: 400;   
+}
+
+.cards__description {
+    font-size: 0.8rem; 
+    text-align: center;  
+}
+
+.btn-custom-pm {
+    font-size: 0.9rem; 
+    text-align: center;
+    background-image: linear-gradient(to bottom, #00a8cc, #0c7b93); 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+}
+
+/* texto para mediaqueries */
+
+.style-text-03r {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.style-text-03b {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.style-text-card-TittleSmall {
+    font-size: 0.927rem;
+    font-weight: 600;
+}
+
+
+.style-text-card-SubittleSmall {
+    font-size: 0.927rem;
+    font-weight: 400;
+}
+
+.style-text-card-ParagraphSmall {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+
+/* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
+.custom-accordion-text {
+    color: #243f68; /* Cambia el color del texto de las respuestas */
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: #27496d;
+}
+
+.accordion-button {
+background-color: #27496d;
+color: #fff;
+}
+
+.accordion-button.collapsed {
+    color:  #fff; /* Cambia el color de la fuente cuando el botón está colapsado */
+}
+
+.accordion-button:not(.collapsed) {
+    color:#fff; /* Cambia el color del título del ítem cuando el acordeón está desplegado */
+}
+
+
+
+/*////////////////////////// FOOTER ////////////////////////// */
+
+.footer-flex {
+    background-position: center bottom;
+    background-image: url('../assets/footer-01.png');
+    background-size: cover; /* Para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 12.75rem;    
+    
+}
+
+footer ul li {
+    margin: 5px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.footer-flex ul {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    list-style-type: none; /* Elimina los marcadores de lista */
+    
+    
+}
+
+.footer-flex a {
+    color: #c1dadf;
+    text-decoration: none;
+}
+
+
+
+
+
+/* ///////////////////MEDIA QUERIES DE BOOSTRAP/////////////////// */
+
+/* Estilos para dispositivos extra small en ---BOOST NO TIENE CLASE */
+@media (max-width: 575.98px) {
+    .cards__title {
+        font-size: 1.5rem; 
+        margin-top: rem;
+        font-weight: 600;
+        color: #00a8cc;
+    }
+    
+    .cards__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;   
+    }
+    
+    .cards__description {
+        font-size: 0.9rem; 
+        text-align: center;  
+    }
+   }
+
+
+  /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
+  @media (min-width: 576px) {
+    .cards__title {
+        font-size: 1.5rem; 
+        margin-top: rem;
+        font-weight: 600;
+        color: #00a8cc;
+    }
+    
+    .cards__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;   
+    }
+    
+    .cards__description {
+        font-size: 0.9rem; 
+        text-align: center;  
+    }
+   }
+
+
+  /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
+  @media (min-width: 768px) {
+    .cards__subtitle {
+        font-size: 1rem;
+        font-weight: 400;   
+    }
+ 
+   
+  }
+  
+
+
+  /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
+  @media (min-width: 992px) {
+    .cards__title {
+        font-size: 1.5rem; 
+        margin-top: rem;
+        font-weight: 600;
+        color: #00a8cc;
+    }
+    
+    .cards__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;   
+    }
+    
+    .cards__description {
+        font-size: 1rem; 
+        text-align: center;  
+    }
+   }
+  
+
+
+  /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
+  @media (min-width: 1200px) {
+    
+  }
+
+   /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
+   @media (min-width: 1400px) {
+    .cards__title {
+        font-size: 1.5rem; 
+        margin-top: rem;
+        font-weight: 600;
+        color: #00a8cc;
+    }
+    
+    .cards__subtitle {
+        font-size: 1.5rem;
+        font-weight: 400;   
+    }
+    
+    .cards__description {
+        font-size: 1rem; 
+        text-align: center;  
+    }
+   }
+
+
+
+
+
+
+
+
+
