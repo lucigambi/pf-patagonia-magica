@@ -72,11 +72,11 @@
     <div class="container-fluid"><div class="row divisor-01"></div></div>
     
     
-    <!--MAIN EDITORIAL-->
+    <!--FORM-->
     <main class="container-fluid">
       
       <div class="row mx-4">
-        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div id="carouselExample2" class="carousel slide">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -102,51 +102,52 @@
             </button>
           </div>
         </div>
-        <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-12 col-sm-12"><p>
-          <div class="text-center p-2">
-            
-            <h2 class="text-sm text-mobile-sm">Todo el dinero recaudado de las ventas en nuestra tienda es donado para
-              diversas fundaciones de Fauna Marina Patagónica.</h2>
-          </div>
+        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12"><p>
+          <h4 class="style-text-03b color-05">
+          ¡Ayudanos a Visivilizar nuestro proyecto!</h4>Todo el dinero recaudado de las ventas en nuestra tienda es donado 
+          para diversas fundaciones de Fauna Marina Patagónica.</p>
+<form class="contact-form">
+  <div class="form-group">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico">
+  </div>
+  
+  <div class="form-group">
+    <label for="department">Elige tu modelo</label>
+    <select id="department" name="department" class="form-select">
+      <option value="sales">ORCA</option>
+      <option value="support">TORTUGA</option>
+      <option value="billing">DELFIN</option>
+    </select>
+    
+    
+    
+    <div class="radio-container">
+      <input type="radio" id="opcion1" name="opcion" class="radio-button">
+      <label for="opcion1" class="radio-label">Negro</label>
+    
+      <input type="radio" id="opcion2" name="opcion" class="radio-button">
+      <label for="opcion2" class="radio-label">Blanco</label>
+    
+      <input type="radio" id="opcion3" name="opcion" class="radio-button">
+      <label for="opcion3" class="radio-label">Gris</label>
+    </div>
+  <button type="submit" class="submit-btn mt-3">CONSULTAR STOCK</button>
 
-          <!--START Selector de Talles y Color-->
-          <div class="text-center">
-            <form class="custom-form">
-        
-              <div class="form-group">
-                <label for="department">Modelo</label>
-                <select id="department" name="department" class="form-select">
-                  <option value="sales">ORCA</option>
-                  <option value="support">TORTUGA</option>
-                  <option value="billing">DELFIN</option>
-                </select>
 
-<!--Radiales-->
-<div class="radios mt-3">
-  <input type="radio" id="radio1" name="grupo-radios" value="radio1">
-  <label for="radio1">AZUL</label>
 
-  <input type="radio" id="radio2" name="grupo-radios" value="radio2">
-  <label for="radio2">BLANCO</label>
+  
+</form>
 
-  <input type="radio" id="radio3" name="grupo-radios" value="radio3" checked>
-  <label for="radio3">NEGRO</label>
-</div>
-</div>
 
-              </div>
-              <div class="form-group">
-                <label for="message">Añade algun comentario:</label>
-                <textarea id="message" name="message" class="form-control" rows="4" placeholder="Ingrese su mensaje"></textarea>
-              </div>
-              <button type="submit" class="submit-btn mt-3">Agregar a Carrito</button>
-            </form>
-            </div>
-
-           
-        
-
-        
+      
+      </div>
+      </div>
     </main>
 
 <!--FOOTER-->
