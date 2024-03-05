@@ -1,0 +1,47 @@
+/*////////////////////////// FORM ////////////////////////// */
+
+
+.contact-form {
+  width: 80%;
+
+  .form-group {
+    margin-bottom: 30px;
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
+    }
+
+    textarea {
+      height: 100px; 
+    }
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, $color-05, $color-04);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 50%;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}

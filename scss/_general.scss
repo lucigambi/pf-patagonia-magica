@@ -8,19 +8,13 @@ body {
     background-color: #142850;
 }
 
-.col {background-color: #142850;
-    margin: 0;
-    padding: 0;
+.col {
+    @include no-mp;
 }
-
-.container-fluid {background-color: #142850;
-}
-
 
 
 a {
-    color: #00A8CC; /* Cambia el color del enlace */
-    /* Agrega más estilos según sea necesario */
+    color:$color-05;
     font-size: 1rem;
   }
 
@@ -28,7 +22,7 @@ a {
   /* ///////////////////Divisor de seccion/////////////////// */
 .divisor-01 {
     background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
-    height: 3rem; /* Altura de la fila en rem */
+    height: 3rem;
   }
 
 

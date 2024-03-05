@@ -3,20 +3,15 @@
 /* Estilos para dispositivos extra small en ---BOOST NO TIENE CLASE */
 @media (max-width: 575.98px) {
     .cards__title {
-        font-size: 1.5rem; 
-        margin-top: rem;
-        font-weight: 600;
-        color: #00a8cc;
+        font-size: 1.5rem;
     }
     
     .cards__subtitle {
-        font-size: 1.5rem;
-        font-weight: 400;   
+        font-size: 1.5rem; 
     }
     
     .cards__description {
-        font-size: 0.9rem; 
-        text-align: center;  
+        font-size: 0.9rem;  
     }
    }
 
@@ -24,20 +19,15 @@
   /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
   @media (min-width: 576px) {
     .cards__title {
-        font-size: 1.5rem; 
-        margin-top: rem;
-        font-weight: 600;
-        color: #00a8cc;
+        font-size: 1.5rem;
     }
     
     .cards__subtitle {
-        font-size: 1.5rem;
-        font-weight: 400;   
+        font-size: 1.5rem;  
     }
     
     .cards__description {
-        font-size: 1rem; 
-        text-align: center;  
+        font-size: 1rem;  
     }
    }
 
@@ -45,8 +35,7 @@
   /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
   @media (min-width: 768px) {
     .cards__subtitle {
-        font-size: 1rem;
-        font-weight: 400;   
+        font-size: 1rem;  
     }
  
    
@@ -57,20 +46,15 @@
   /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
   @media (min-width: 992px) {
     .cards__title {
-        font-size: 1.5rem; 
-        margin-top: rem;
-        font-weight: 600;
-        color: #00a8cc;
+        font-size: 1.5rem;
     }
     
     .cards__subtitle {
-        font-size: 1.5rem;
-        font-weight: 400;   
+        font-size: 1.5rem; 
     }
     
     .cards__description {
-        font-size: 1rem; 
-        text-align: center;  
+        font-size: 1rem;   
     }
    }
   
@@ -78,25 +62,22 @@
 
   /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
   @media (min-width: 1200px) {
-    
+    .cards__subtitle {
+        font-size: 1rem;  
+    }
   }
 
    /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
    @media (min-width: 1400px) {
     .cards__title {
-        font-size: 1.5rem; 
-        margin-top: rem;
-        font-weight: 600;
-        color: #00a8cc;
+        font-size: 1.5rem;
     }
     
     .cards__subtitle {
-        font-size: 1.5rem;
-        font-weight: 400;   
+        font-size: 1.5rem;  
     }
     
     .cards__description {
-        font-size: 1rem; 
-        text-align: center;  
+        font-size: 1rem;  
     }
    }

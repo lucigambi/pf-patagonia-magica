@@ -18,25 +18,19 @@ body {
 }
 
 .col {
-  background-color: #142850;
   margin: 0;
   padding: 0;
 }
 
-.container-fluid {
-  background-color: #142850;
-}
-
 a {
-  color: #00A8CC; /* Cambia el color del enlace */
-  /* Agrega más estilos según sea necesario */
+  color: #00A8CC;
   font-size: 1rem;
 }
 
 /* ///////////////////Divisor de seccion/////////////////// */
 .divisor-01 {
   background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
-  height: 3rem; /* Altura de la fila en rem */
+  height: 3rem;
 }
 
 /* ///////////////////Mi paleta de colores/////////////////// */
@@ -168,54 +162,52 @@ a {
   /* Puedes añadir más estilos según sea necesario */
 }
 
+.navbar-toggler-icon {
+  /* Cambiar el color del ícono a blanco */
+  filter: invert(1);
+}
+
+.navbar-toggler {
+  border: none; /* Quitar el borde */
+}
+
 /* ///////////////////Clases para CARDS/////////////////// */
 .cards {
   max-height: 28rem;
   background-color: #142850;
   border-radius: 14px;
-  padding: 1.5rem; /* Utilizamos unidades relativas para el relleno */
-  margin: 1.5rem; /* Utilizamos unidades relativas para el margen */
+  padding: 1.5rem;
+  margin: 1.5rem;
   display: flex;
-  flex-direction: column;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
-  color: #c1dadf;
+  flex-direction: column;
+  color: #C1DADF;
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
 }
-
 .cards__img {
   max-width: 100%;
   height: auto;
   margin-bottom: 1rem;
 }
-
-.cards__button__img {
-  max-width: 100%;
-  height: auto;
-  margin-left: 0.5rem;
-}
-
 .cards__title {
   font-size: 1rem;
   margin-top: 1rem;
   font-weight: 600;
-  color: #00a8cc;
+  color: #00A8CC;
 }
-
 .cards__subtitle {
   font-size: 0.8rem;
   font-weight: 400;
 }
-
 .cards__description {
   font-size: 0.8rem;
   text-align: center;
 }
-
-.btn-custom-pm {
+.cards__btn {
   font-size: 0.9rem;
   text-align: center;
-  background-image: linear-gradient(to bottom, #00a8cc, #0c7b93);
+  background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -223,6 +215,51 @@ a {
   cursor: pointer;
   text-decoration: none;
   width: 100%;
+}
+.cards__button__img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0.5rem;
+}
+
+/*////////////////////////// FORM ////////////////////////// */
+.contact-form {
+  width: 80%;
+}
+.contact-form .form-group {
+  margin-bottom: 30px;
+}
+.contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.contact-form .form-group input,
+.contact-form .form-group select,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+.contact-form .form-group textarea {
+  height: 100px;
+}
+.contact-form .submit-btn {
+  font-size: 0.9rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 50%;
+}
+.contact-form .submit-btn:hover {
+  background-color: #0056b3;
 }
 
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
@@ -256,26 +293,23 @@ a {
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   height: 12.75rem;
 }
-
-footer ul li {
-  margin: 5px;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  align-items: flex-end;
-}
-
 .footer-flex ul {
   margin-top: 20px;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   align-items: flex-end;
-  list-style-type: none; /* Elimina los marcadores de lista */
+  list-style-type: none;
 }
-
-.footer-flex a {
-  color: #c1dadf;
+.footer-flex ul li {
+  margin: 5px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-flex ul li a {
+  color: #C1DADF;
   text-decoration: none;
 }
 
@@ -284,76 +318,60 @@ footer ul li {
 @media (max-width: 575.98px) {
   .cards__title {
     font-size: 1.5rem;
-    margin-top: rem;
-    font-weight: 600;
-    color: #00a8cc;
   }
   .cards__subtitle {
     font-size: 1.5rem;
-    font-weight: 400;
   }
   .cards__description {
     font-size: 0.9rem;
-    text-align: center;
   }
 }
 /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
 @media (min-width: 576px) {
   .cards__title {
     font-size: 1.5rem;
-    margin-top: rem;
-    font-weight: 600;
-    color: #00a8cc;
   }
   .cards__subtitle {
     font-size: 1.5rem;
-    font-weight: 400;
   }
   .cards__description {
     font-size: 1rem;
-    text-align: center;
   }
 }
 /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
 @media (min-width: 768px) {
   .cards__subtitle {
     font-size: 1rem;
-    font-weight: 400;
   }
 }
 /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
 @media (min-width: 992px) {
   .cards__title {
     font-size: 1.5rem;
-    margin-top: rem;
-    font-weight: 600;
-    color: #00a8cc;
   }
   .cards__subtitle {
     font-size: 1.5rem;
-    font-weight: 400;
   }
   .cards__description {
     font-size: 1rem;
-    text-align: center;
   }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
+@media (min-width: 1200px) {
+  .cards__subtitle {
+    font-size: 1rem;
+  }
+}
 /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
 @media (min-width: 1400px) {
   .cards__title {
     font-size: 1.5rem;
-    margin-top: rem;
-    font-weight: 600;
-    color: #00a8cc;
   }
   .cards__subtitle {
     font-size: 1.5rem;
-    font-weight: 400;
   }
   .cards__description {
     font-size: 1rem;
-    text-align: center;
   }
 }
 

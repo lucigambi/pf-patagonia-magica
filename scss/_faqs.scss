@@ -1,6 +1,6 @@
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
 .custom-accordion-text {
-  color: #243f68; /* Cambia el color del texto de las respuestas */
+  color: $color-02; /* Cambia el color del texto de las respuestas */
 }
 
 .accordion-button:not(.collapsed) {
@@ -9,7 +9,7 @@
 }
 
 .accordion-button {
-background-color: #27496d;
+background-color: $color-03;
 color: #fff;
 }
 

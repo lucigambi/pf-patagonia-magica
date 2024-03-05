@@ -1,4 +1,21 @@
-@mixin sizes($with, $height){
+@mixin alineaciones($justi, $align){
     height: $height;
-    width: $with;
+    align-items: $align;
 }
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @mixin img-auto {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @mixin no-mp {
+    margin: 0;
+    padding: 0;
+  }
+  

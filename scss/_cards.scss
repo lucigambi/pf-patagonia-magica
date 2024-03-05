@@ -2,57 +2,53 @@
 
 .cards {
   max-height: 28rem;
-  background-color: #142850;
+  background-color: $color-01;
   border-radius: 14px;
-  padding: 1.5rem; /* Utilizamos unidades relativas para el relleno */
-  margin: 1.5rem; /* Utilizamos unidades relativas para el margen */
-  display: flex;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  @include flex-center;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
-  color: #c1dadf;
+  color: $color-06;
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
-}
 
-.cards__img {
-  max-width: 100%; 
-  height: auto;
-  margin-bottom: 1rem; 
-}
+  &__img {
+    @include img-auto;
+    margin-bottom: 1rem;
+  }
 
+  &__title {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: $color-05;
+  }
 
-.cards__button__img {
-  max-width: 100%; 
-  height: auto; 
-  margin-left: 0.5rem;
-}
+  &__subtitle {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 
-.cards__title {
-  font-size: 1rem; 
-  margin-top: 1rem;
-  font-weight: 600;
-  color: #00a8cc;
-}
+  &__description {
+    font-size: 0.8rem;
+    text-align: center;
+  }
 
-.cards__subtitle {
-  font-size: 0.8rem;
-  font-weight: 400;   
-}
-
-.cards__description {
-  font-size: 0.8rem; 
-  text-align: center;  
-}
-
-.btn-custom-pm {
-  font-size: 0.9rem; 
-  text-align: center;
-  background-image: linear-gradient(to bottom, #00a8cc, #0c7b93); 
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  width: 100%;
+  &__btn {
+    font-size: 0.9rem;
+    text-align: center;
+    background-image: linear-gradient(to bottom, $color-05, $color-04);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  &__button__img {
+    @include img-auto;
+    margin-left: 0.5rem;
+  }
+ 
 }
