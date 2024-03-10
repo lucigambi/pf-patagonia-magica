@@ -1,0 +1,38 @@
+// Defino el mapeo para las clases de tipografías
+$tipografias: (
+  titulo-01r: (font-size: 2.5rem, font-weight: 400),
+  titulo-01b: (font-size: 2.5rem, font-weight: 600),
+  titulo-02r: (font-size: 2rem, font-weight: 400),
+  titulo-02b: (font-size: 2rem, font-weight: 600),
+  titulo-03r: (font-size: 1.5rem, font-weight: 400),
+  titulo-03b: (font-size: 1.5rem, font-weight: 600),
+  titulo-04r: (font-size: 1rem, font-weight: 400),
+  titulo-04b: (font-size: 1rem, font-weight: 600),
+  titulo-05r: (font-size: 0.8rem, font-weight: 400),
+  titulo-05b: (font-size: 0.8rem, font-weight: 600), 
+);
+
+// Generar clases de tipografía
+@each $clase, $propiedades in $tipografias {
+  .Pat__#{$clase} {
+    font-size: map-get($propiedades, font-size); // Acceder al tamaño de fuente
+    font-weight: map-get($propiedades, font-weight); // Acceder al peso de la fuente
+  }
+}
+
+$palet: (
+  color-00: #0d1a35,
+  color-01: #142850,
+  color-02: #243f68,
+  color-03: #27496d,
+  color-04: #0c7b93,
+  color-05: #00A8CC,
+  color-06: #C1DADF,
+  color-07: #fff,
+);
+
+@each $nombre-color, $hexa in $palet {
+  .Pat__#{$nombre-color} {
+    color: $hexa; 
+  }
+}

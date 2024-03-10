@@ -1,78 +1,11 @@
-  /* ///////////////////Mis Styles de TEXTO/////////////////// */
-  .style-text-01 {
-    font-size: 6.343rem;
-    font-weight: 600;
+.txt-center {
+  text-align: center;
 }
 
-.style-text-02 {
-    font-size: 3.925rem;
-    font-weight: 600;
+.txt-left {
+  text-align: left;
 }
 
-.style-text-03r {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.style-text-03b {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.style-text-04b {
-    font-size: 0.927rem;
-    font-weight: 600;
-}
-
-.style-text-04r {
-    font-size: 0.927rem;
-    font-weight: 400;
-}
-
-.style-text-045r {
-    font-size: 0.7rem;
-    font-weight: 400;
-}
-
-.style-text-045b {
-    font-size: 0.7rem;
-    font-weight: 600;
-}
-
-.style-text-05 {
-    font-size: 0.573rem;
-    font-weight: 600;
-}
-
-.style-text-06 {
-    font-size: 0.354rem;
-    font-weight: 600;
-}
-
-/* texto para mediaqueries */
-
-.style-text-03r {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.style-text-03b {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.style-text-card-TittleSmall {
-  font-size: 0.927rem;
-  font-weight: 600;
-}
-
-
-.style-text-card-SubittleSmall {
-  font-size: 0.927rem;
-  font-weight: 400;
-}
-
-.style-text-card-ParagraphSmall {
-  font-size: 0.7rem;
-  font-weight: 400;
+.txt-spacetop {
+  margin-top: 2rem;
 }

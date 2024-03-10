@@ -52,3 +52,19 @@
   }
  
 }
+
+.contenedor-hoverimg {
+  position: relative; /* El contenedor va siempre tenga posición relativa */
+
+  .hover-imagen {
+    position: absolute; /* Coloca la imagen hover en la misma posición que la imagen original */
+    top: 0;
+    left: 0;
+    opacity: 0; /* Oculta la imagen hover inicialmente */
+    transition: opacity 0.5s ease; /* Transición de opacidad */
+  }
+
+  &:hover .hover-imagen {
+    opacity: 1; /* Muestra la imagen hover al hacer hover sobre el contenedor */
+  }
+}
