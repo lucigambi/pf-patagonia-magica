@@ -7,6 +7,88 @@
   box-sizing: border-box;
 }
 
+.Pat__titulo-01r {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.Pat__titulo-01b {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.Pat__titulo-02r {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.Pat__titulo-02b {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Pat__titulo-03r {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.Pat__titulo-03b {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Pat__titulo-04r {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.Pat__titulo-04b {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.Pat__titulo-05r {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.Pat__titulo-05b {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.Pat__color-00 {
+  color: #0d1a35;
+}
+
+.Pat__color-01 {
+  color: #142850;
+}
+
+.Pat__color-02 {
+  color: #243f68;
+}
+
+.Pat__color-03 {
+  color: #27496d;
+}
+
+.Pat__color-04 {
+  color: #0c7b93;
+}
+
+.Pat__color-05 {
+  color: #00A8CC;
+}
+
+.Pat__color-06 {
+  color: #C1DADF;
+}
+
+.Pat__color-07 {
+  color: #fff;
+}
+
 /* ///////////////////Generales/////////////////// */
 html {
   font-size: 16px;
@@ -33,110 +115,16 @@ a {
   height: 3rem;
 }
 
-/* ///////////////////Mi paleta de colores/////////////////// */
-.color-00 {
-  color: #0d1a35;
+.txt-center {
+  text-align: center;
 }
 
-.color-01 {
-  color: #142850;
+.txt-left {
+  text-align: left;
 }
 
-.color-02 {
-  color: #243f68;
-}
-
-.color-03 {
-  color: #27496d;
-}
-
-.color-04 {
-  color: #0c7b93;
-}
-
-.color-05 {
-  color: #00A8CC;
-}
-
-.color-06 {
-  color: #C1DADF;
-}
-
-/* ///////////////////Mis Styles de TEXTO/////////////////// */
-.style-text-01 {
-  font-size: 6.343rem;
-  font-weight: 600;
-}
-
-.style-text-02 {
-  font-size: 3.925rem;
-  font-weight: 600;
-}
-
-.style-text-03r {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.style-text-03b {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.style-text-04b {
-  font-size: 0.927rem;
-  font-weight: 600;
-}
-
-.style-text-04r {
-  font-size: 0.927rem;
-  font-weight: 400;
-}
-
-.style-text-045r {
-  font-size: 0.7rem;
-  font-weight: 400;
-}
-
-.style-text-045b {
-  font-size: 0.7rem;
-  font-weight: 600;
-}
-
-.style-text-05 {
-  font-size: 0.573rem;
-  font-weight: 600;
-}
-
-.style-text-06 {
-  font-size: 0.354rem;
-  font-weight: 600;
-}
-
-/* texto para mediaqueries */
-.style-text-03r {
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.style-text-03b {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.style-text-card-TittleSmall {
-  font-size: 0.927rem;
-  font-weight: 600;
-}
-
-.style-text-card-SubittleSmall {
-  font-size: 0.927rem;
-  font-weight: 400;
-}
-
-.style-text-card-ParagraphSmall {
-  font-size: 0.7rem;
-  font-weight: 400;
+.txt-spacetop {
+  margin-top: 2rem;
 }
 
 /* ///////////////////CLASES PARA NAVBAR DE BOOSTRAP/////////////////// */
@@ -222,31 +210,66 @@ a {
   margin-left: 0.5rem;
 }
 
+.contenedor-hoverimg {
+  position: relative; /* El contenedor va siempre tenga posición relativa */
+}
+.contenedor-hoverimg .hover-imagen {
+  position: absolute; /* Coloca la imagen hover en la misma posición que la imagen original */
+  top: 0;
+  left: 0;
+  opacity: 0; /* Oculta la imagen hover inicialmente */
+  transition: opacity 0.5s ease; /* Transición de opacidad */
+}
+.contenedor-hoverimg:hover .hover-imagen {
+  opacity: 1; /* Muestra la imagen hover al hacer hover sobre el contenedor */
+}
+
 /*////////////////////////// FORM ////////////////////////// */
 .contact-form {
   width: 80%;
 }
-.contact-form .form-group {
+
+.form-group {
   margin-bottom: 30px;
 }
-.contact-form .form-group label {
+
+.form-group label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
-.contact-form .form-group input,
-.contact-form .form-group select,
-.contact-form .form-group textarea {
+
+.form-group input[type=text],
+.form-group input[type=email],
+.form-group select,
+.form-group textarea {
+  color: #27496d;
+  font-size: 0.9rem;
   width: 100%;
   padding: 0.5rem;
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
 }
-.contact-form .form-group textarea {
+
+.form-group select option {
+  color: #27496d; /* Cambiar aquí el color del texto */
+}
+
+.form-group textarea {
   height: 100px;
 }
-.contact-form .submit-btn {
+
+.form-group .radio-group {
+  margin-bottom: 10px;
+}
+.form-group .radio-group label {
+  display: inline-block;
+  margin-right: 10px;
+  color: #27496d;
+}
+
+.submit-btn {
   font-size: 0.9rem;
   text-align: center;
   background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
@@ -258,8 +281,18 @@ a {
   text-decoration: none;
   width: 50%;
 }
-.contact-form .submit-btn:hover {
-  background-color: #0056b3;
+
+.radio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Aplica el mixin para centrar los radios */
+  margin-top: 10px;
+}
+
+.radio-container input[type=radio],
+.radio-container label {
+  margin: 0 5px; /* Espacio entre radios y etiquetas */
 }
 
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
@@ -325,6 +358,19 @@ a {
   .cards__description {
     font-size: 0.9rem;
   }
+  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+  .Pat__titulo-01b {
+    font-size: 1.2rem;
+  }
+  .Pat__titulo-02r {
+    font-size: 1rem;
+  }
+  .Pat__titulo-03b {
+    font-size: 1rem;
+  }
+  .Pat__titulo-04r {
+    font-size: 0.8rem;
+  }
 }
 /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
 @media (min-width: 576px) {
@@ -337,10 +383,24 @@ a {
   .cards__description {
     font-size: 1rem;
   }
+  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+  .Pat__titulo-01b {
+    font-size: 1.2rem;
+  }
+  .Pat__titulo-02r {
+    font-size: 1rem;
+  }
 }
 /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
 @media (min-width: 768px) {
   .cards__subtitle {
+    font-size: 1rem;
+  }
+  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+  .Pat__titulo-01b {
+    font-size: 1.2rem;
+  }
+  .Pat__titulo-02r {
     font-size: 1rem;
   }
 }
@@ -355,11 +415,25 @@ a {
   .cards__description {
     font-size: 1rem;
   }
+  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+  .Pat__titulo-01b {
+    font-size: 1.7rem;
+  }
+  .Pat__titulo-02r {
+    font-size: 1.3rem;
+  }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
 @media (min-width: 1200px) {
   .cards__subtitle {
     font-size: 1rem;
+  }
+  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+  .Pat__titulo-01b {
+    font-size: 2rem;
+  }
+  .Pat__titulo-02r {
+    font-size: 1.3rem;
   }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
@@ -372,6 +446,12 @@ a {
   }
   .cards__description {
     font-size: 1rem;
+  }
+  .Pat__titulo-01b {
+    font-size: 2.5rem;
+  }
+  .Pat__titulo-02r {
+    font-size: 1.5rem;
   }
 }
 

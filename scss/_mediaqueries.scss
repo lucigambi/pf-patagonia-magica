@@ -13,6 +13,23 @@
     .cards__description {
         font-size: 0.9rem;  
     }
+
+    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+    .Pat__titulo-01b {
+    font-size: 1.2rem;
+    }
+
+    .Pat__titulo-02r {
+        font-size: 1rem;
+    }
+
+    .Pat__titulo-03b {
+        font-size: 1rem;
+    }
+
+    .Pat__titulo-04r {
+        font-size: 0.8rem;
+    }
    }
 
 
@@ -29,6 +46,16 @@
     .cards__description {
         font-size: 1rem;  
     }
+   
+    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+    .Pat__titulo-01b {
+    font-size: 1.2rem;
+    }
+
+    .Pat__titulo-02r {
+        font-size: 1rem;
+    }
+    
    }
 
 
@@ -38,7 +65,15 @@
         font-size: 1rem;  
     }
  
-   
+    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+    .Pat__titulo-01b {
+    font-size: 1.2rem;
+    }
+
+    .Pat__titulo-02r {
+        font-size: 1rem;
+    }
+
   }
   
 
@@ -56,6 +91,16 @@
     .cards__description {
         font-size: 1rem;   
     }
+
+    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+    .Pat__titulo-01b {
+    font-size: 1.7rem;
+    }
+
+    .Pat__titulo-02r {
+        font-size: 1.3rem;
+    }
+
    }
   
 
@@ -64,6 +109,16 @@
   @media (min-width: 1200px) {
     .cards__subtitle {
         font-size: 1rem;  
+    }
+
+    
+    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
+    .Pat__titulo-01b {
+    font-size: 2rem;
+    }
+
+    .Pat__titulo-02r {
+        font-size: 1.3rem;
     }
   }
 
@@ -80,4 +135,12 @@
     .cards__description {
         font-size: 1rem;  
     }
+
+    .Pat__titulo-01b {
+        font-size: 2.5rem;
+        }
+    
+        .Pat__titulo-02r {
+            font-size: 1.5rem;
+        }
    }
