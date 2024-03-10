@@ -262,6 +262,14 @@ a {
   background-color: #0056b3;
 }
 
+.radio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
 .custom-accordion-text {
   color: #243f68; /* Cambia el color del texto de las respuestas */
