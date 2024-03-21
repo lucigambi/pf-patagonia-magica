@@ -1,146 +1,111 @@
 /* ///////////////////MEDIA QUERIES DE BOOSTRAP/////////////////// */
-
 /* Estilos para dispositivos extra small en ---BOOST NO TIENE CLASE */
 @media (max-width: 575.98px) {
     .cards__title {
         font-size: 1.5rem;
     }
-    
+
     .cards__subtitle {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
-    
+
     .cards__description {
-        font-size: 0.9rem;  
-    }
-
-    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-    .Pat__titulo-01b {
-    font-size: 1.2rem;
-    }
-
-    .Pat__titulo-02r {
         font-size: 1rem;
     }
 
-    .Pat__titulo-03b {
-        font-size: 1rem;
+    .pat__titulo-01b {
+        font-size: 2rem;
     }
 
-    .Pat__titulo-04r {
-        font-size: 0.8rem;
+    .pat__titulo-02r {
+        font-size: 1.5rem;
     }
-   }
+}
 
 
-  /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
-  @media (min-width: 576px) {
+/* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
+@media (max-width: 576px) {
     .cards__title {
         font-size: 1.5rem;
     }
-    
+
     .cards__subtitle {
-        font-size: 1.5rem;  
+        font-size: 1.5rem;
     }
-    
+
     .cards__description {
-        font-size: 1rem;  
-    }
-   
-    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-    .Pat__titulo-01b {
-    font-size: 1.2rem;
-    }
-
-    .Pat__titulo-02r {
-        font-size: 1rem;
-    }
-    
-   }
-
-
-  /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
-  @media (min-width: 768px) {
-    .cards__subtitle {
-        font-size: 1rem;  
-    }
- 
-    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-    .Pat__titulo-01b {
-    font-size: 1.2rem;
-    }
-
-    .Pat__titulo-02r {
         font-size: 1rem;
     }
 
-  }
-  
+    .pat__titulo-01b {
+        font-size: 2rem;
+    }
 
+    .pat__titulo-02r {
+        font-size: 1.5rem;
+    }
+}
 
-  /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
-  @media (min-width: 992px) {
+/* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
+@media (max-width: 768px) {
+    .cards__subtitle {
+        font-size: 1rem;
+    }
+
+    .pat__titulo-01b {
+        font-size: 2rem;
+    }
+
+    .pat__titulo-02r {
+        font-size: 1.5rem;
+    }
+}
+
+/* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
+@media (max-width: 992px) {
     .cards__title {
         font-size: 1.5rem;
     }
-    
+
     .cards__subtitle {
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
-    
+
     .cards__description {
-        font-size: 1rem;   
+        font-size: 1rem;
     }
 
-    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-    .Pat__titulo-01b {
-    font-size: 1.7rem;
+    .pat__titulo-01b {
+        font-size: 2rem;
     }
 
-    .Pat__titulo-02r {
-        font-size: 1.3rem;
+    .pat__titulo-02r {
+        font-size: 1.5rem;
     }
+}
 
-   }
-  
-
-
-  /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
-  @media (min-width: 1200px) {
+/* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
+@media (max-width: 1200px) {
     .cards__subtitle {
-        font-size: 1rem;  
+        font-size: 1rem;
     }
 
-    
-    /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-    .Pat__titulo-01b {
-    font-size: 2rem;
+    .cards__title {
+        font-size: 1rem;
     }
+}
 
-    .Pat__titulo-02r {
-        font-size: 1.3rem;
-    }
-  }
-
-   /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
-   @media (min-width: 1400px) {
+/* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
+@media (max-width: 1400px) {
     .cards__title {
         font-size: 1.5rem;
     }
-    
+
     .cards__subtitle {
-        font-size: 1.5rem;  
-    }
-    
-    .cards__description {
-        font-size: 1rem;  
+        font-size: 1.5rem;
     }
 
-    .Pat__titulo-01b {
-        font-size: 2.5rem;
-        }
-    
-        .Pat__titulo-02r {
-            font-size: 1.5rem;
-        }
-   }
+    .cards__description {
+        font-size: 1rem;
+    }
+}

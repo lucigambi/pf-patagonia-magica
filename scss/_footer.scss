@@ -1,12 +1,13 @@
 /*////////////////////////// FOOTER ////////////////////////// */
-
 .footer-flex {
   background-position: center bottom;
   background-image: url('../assets/footer-01.png');
-  background-size: cover; /* Para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  height: 12.75rem;    
-  
+  background-size: cover;
+  /* Para cubrir todo el contenedor */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
+  height: 12.75rem;
+
   ul {
     margin-top: 20px;
     display: flex;
@@ -14,21 +15,20 @@
     justify-content: center;
     align-items: flex-end;
     list-style-type: none;
-    
+
     li {
       margin: 5px;
       display: flex;
       flex-flow: wrap;
       justify-content: center;
       align-items: flex-end;
-      
+
       a {
         color: $color-06;
         text-decoration: none;
       }
     }
-    
+
   }
 }
-
 

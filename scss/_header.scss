@@ -1,33 +1,54 @@
-
 /* ///////////////////CLASES PARA NAVBAR DE BOOSTRAP/////////////////// */
-.bg-body-tertiary {
-  --bs-bg-opacity: 0; /* Fondo tranparente de nav */
-}
-
 /* Estilo para los enlaces de navbar */
-.navbar-nav .nav-link {
-  color: #fff; /* Cambia el color del texto de los enlaces */
+.navbar-nav {
+  .nav-link {
+    color: $color-07;
+    padding-left: 15px;
+
+    &:hover {
+      color: $color-05;
+    }
+  }
 }
 
-/* Estilo para los enlaces al pasar el mouse */
-.navbar-nav .nav-link:hover {
-  color: #00A8CC; /* Cambia el color del texto de los enlaces al pasar el mouse */
-}
-
-/* Estilo para boton de search en NAVBAR */
-.btn-custom {
-  background: linear-gradient(to bottom, #0c7b93, #243f68); /* Degradado de naranja a rojo */
-  border: none; /* Sin borde */
-  color: #ffffff; /* Color del texto del botón */
-  /* Puedes añadir más estilos según sea necesario */
-}
-
+/* Estilos para boton hamburguesa "toggler" de NAVBAR */
 .navbar-toggler-icon {
- /* Cambiar el color del ícono a blanco */
+  /* Cambiar el color del ícono de negro a blanco */
   filter: invert(1);
 }
 
 .navbar-toggler {
-  border: none; /* Quitar el borde */
+  border: none;
+}
 
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-custom-margin {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.d-flex {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Estilo para boton de search en NAVBAR */
+.btn-custom {
+  background: linear-gradient(to bottom, $color-04, $color-02);
+  border: none;
+  color: $color-07;
+}
+
+/* Fondo tranparente de NAVBAR */
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
 }

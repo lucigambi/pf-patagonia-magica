@@ -1,8 +1,7 @@
 /* ///////////////////Clases para CARDS/////////////////// */
-
 .cards {
   max-height: 28rem;
-  background-color: $color-01;
+  background-color: $color-03;
   border-radius: 14px;
   padding: 1.5rem;
   margin: 1.5rem;
@@ -12,59 +11,41 @@
   box-shadow: 0 3px 25px rgba(0, 0, 0, 0.5);
 
   &__img {
-    @include img-auto;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 1rem;
   }
 
-  &__title {
-    font-size: 1rem;
-    margin-top: 1rem;
-    font-weight: 600;
-    color: $color-05;
-  }
-
-  &__subtitle {
-    font-size: 0.8rem;
-    font-weight: 400;
-  }
-
-  &__description {
-    font-size: 0.8rem;
-    text-align: center;
-  }
-
   &__btn {
-    font-size: 0.9rem;
-    text-align: center;
-    background-image: linear-gradient(to bottom, $color-05, $color-04);
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
+    @include btn-look;
     width: 100%;
   }
-  
+
   &__button__img {
-    @include img-auto;
+    max-width: 100%;
+    height: auto;
     margin-left: 0.5rem;
   }
- 
 }
 
+/* ///////////////////Hover para CARDS/////////////////// */
 .contenedor-hoverimg {
-  position: relative; /* El contenedor va siempre tenga posición relativa */
+  position: relative;
 
+  /* El contenedor va siempre en posición relativa */
   .hover-imagen {
-    position: absolute; /* Coloca la imagen hover en la misma posición que la imagen original */
+    position: absolute;
+    /* Coloca la imagen hover en la misma posición que la imagen original */
     top: 0;
     left: 0;
-    opacity: 0; /* Oculta la imagen hover inicialmente */
-    transition: opacity 0.5s ease; /* Transición de opacidad */
+    opacity: 0;
+    /* Oculta la imagen hover inicialmente */
+    transition: opacity 0.5s ease;
+    /* Transición de opacidad */
   }
 
   &:hover .hover-imagen {
-    opacity: 1; /* Muestra la imagen hover al hacer hover sobre el contenedor */
+    opacity: 1;
+    /* Muestra la imagen hover al hacer hover sobre el contenedor */
   }
 }

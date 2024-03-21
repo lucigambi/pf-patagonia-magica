@@ -8,18 +8,18 @@ $tipografias: (
   titulo-03b: (font-size: 1.5rem, font-weight: 600),
   titulo-04r: (font-size: 1rem, font-weight: 400),
   titulo-04b: (font-size: 1rem, font-weight: 600),
-  titulo-05r: (font-size: 0.8rem, font-weight: 400),
-  titulo-05b: (font-size: 0.8rem, font-weight: 600), 
+
 );
 
-// Generar clases de tipografía
+// Genera clases de tipografía
 @each $clase, $propiedades in $tipografias {
-  .Pat__#{$clase} {
+  .pat__#{$clase} {
     font-size: map-get($propiedades, font-size); // Acceder al tamaño de fuente
     font-weight: map-get($propiedades, font-weight); // Acceder al peso de la fuente
   }
 }
 
+// Defino el mapeo para los colores
 $palet: (
   color-00: #0d1a35,
   color-01: #142850,
@@ -31,8 +31,9 @@ $palet: (
   color-07: #fff,
 );
 
+// Genera paleta
 @each $nombre-color, $hexa in $palet {
-  .Pat__#{$nombre-color} {
-    color: $hexa; 
+  .pat__#{$nombre-color} {
+    color: $hexa;
   }
 }

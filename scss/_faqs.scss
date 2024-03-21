@@ -1,22 +1,25 @@
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
 .custom-accordion-text {
-  color: $color-02; /* Cambia el color del texto de las respuestas */
+  color: $color-02;
+  /* Cambia el color del texto de las respuestas */
 }
 
 .accordion-button:not(.collapsed) {
   color: var(--bs-accordion-active-color);
-  background-color: #27496d;
+  background-color: $color-03;
 }
 
 .accordion-button {
-background-color: $color-03;
-color: #fff;
+  background-color: $color-03;
+  color: $color-07;
 }
 
 .accordion-button.collapsed {
-  color:  #fff; /* Cambia el color de la fuente cuando el botón está colapsado */
+  color: $color-07;
+  /* Cambia el color de la fuente cuando el botón está colapsado */
 }
 
 .accordion-button:not(.collapsed) {
-  color:#fff; /* Cambia el color del título del ítem cuando el acordeón está desplegado */
+  color: $color-07;
+  /* Cambia el color del título del ítem cuando el acordeón está desplegado */
 }

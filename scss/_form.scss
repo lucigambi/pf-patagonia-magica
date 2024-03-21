@@ -1,75 +1,53 @@
-/*////////////////////////// FORM ////////////////////////// */
-
+/*////////////////////////// FORM de CONTACTO ////////////////////////// */
 .contact-form {
-  width: 80%;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-container {
+  @include flex-center;
 }
 
 .form-group {
-  margin-bottom: 30px;
-}
 
-.form-group label {
-  
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group select,
-.form-group textarea {
-  color: $color-03;
-  font-size: 0.9rem;
-  width: 100%;
-  padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-}
-
-.form-group select option {
-  color: $color-03; /* Cambiar aquí el color del texto */
-}
-
-
-.form-group textarea {
-  height: 100px; 
-}
-
-.form-group .radio-group {
-  margin-bottom: 10px;
-  
-
-  label {
-    display: inline-block;
-    margin-right: 10px;
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
     color: $color-03;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid $color-06;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  textarea {
+    height: 150px;
   }
 }
 
-.submit-btn {
-  font-size: 0.9rem;
-  text-align: center;
-  background-image: linear-gradient(to bottom, $color-05, $color-04);
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  text-decoration: none;
-  width: 50%;
+.submit-btn-contact {
+  @include btn-look;
 }
 
-.radio-container {
-  @include flex-center; /* Aplica el mixin para centrar los radios */
+/*////////////////////////// FORM de TIENDA PREVENTA ////////////////////////// */
+.tienda-form {
+  @include flex-center;
+  flex-direction: row;
+  text-align: center
+}
+
+.submit-btn-tienda {
+  @include btn-look;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
-.radio-container input[type="radio"],
-.radio-container label {
-  margin: 0 5px; /* Espacio entre radios y etiquetas */
+.head-carrousel {
+  background: linear-gradient(to bottom, $color-03, $color-01);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
 }
-
-
-

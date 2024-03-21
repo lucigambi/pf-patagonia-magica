@@ -7,85 +7,75 @@
   box-sizing: border-box;
 }
 
-.Pat__titulo-01r {
+.pat__titulo-01r {
   font-size: 2.5rem;
   font-weight: 400;
 }
 
-.Pat__titulo-01b {
+.pat__titulo-01b {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.Pat__titulo-02r {
+.pat__titulo-02r {
   font-size: 2rem;
   font-weight: 400;
 }
 
-.Pat__titulo-02b {
+.pat__titulo-02b {
   font-size: 2rem;
   font-weight: 600;
 }
 
-.Pat__titulo-03r {
+.pat__titulo-03r {
   font-size: 1.5rem;
   font-weight: 400;
 }
 
-.Pat__titulo-03b {
+.pat__titulo-03b {
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.Pat__titulo-04r {
+.pat__titulo-04r {
   font-size: 1rem;
   font-weight: 400;
 }
 
-.Pat__titulo-04b {
+.pat__titulo-04b {
   font-size: 1rem;
   font-weight: 600;
 }
 
-.Pat__titulo-05r {
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-
-.Pat__titulo-05b {
-  font-size: 0.8rem;
-  font-weight: 600;
-}
-
-.Pat__color-00 {
+.pat__color-00 {
   color: #0d1a35;
 }
 
-.Pat__color-01 {
+.pat__color-01 {
   color: #142850;
 }
 
-.Pat__color-02 {
+.pat__color-02 {
   color: #243f68;
 }
 
-.Pat__color-03 {
+.pat__color-03 {
   color: #27496d;
 }
 
-.Pat__color-04 {
+.pat__color-04 {
   color: #0c7b93;
 }
 
-.Pat__color-05 {
+.pat__color-05 {
   color: #00A8CC;
 }
 
-.Pat__color-06 {
+.pat__color-06 {
   color: #C1DADF;
 }
 
-.Pat__color-07 {
+.pat__color-07 {
   color: #fff;
 }
 
@@ -109,10 +99,27 @@ a {
   font-size: 1rem;
 }
 
+.container-fluid {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
 /* ///////////////////Divisor de seccion/////////////////// */
 .divisor-01 {
-  background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
+  background: linear-gradient(to bottom, #0d1a35, #142850);
+  /* Degradado de colores */
   height: 3rem;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
+
+/* ///////////////////Quienes Somos Container/////////////////// */
+.quienessomos-container {
+  width: 100%;
+  max-width: 500px;
 }
 
 .txt-center {
@@ -123,46 +130,107 @@ a {
   text-align: left;
 }
 
+.txt-right {
+  text-align: right;
+}
+
 .txt-spacetop {
   margin-top: 2rem;
 }
 
-/* ///////////////////CLASES PARA NAVBAR DE BOOSTRAP/////////////////// */
-.bg-body-tertiary {
-  --bs-bg-opacity: 0; /* Fondo tranparente de nav */
+.txt-spacetop-half {
+  margin-top: 1rem;
 }
 
+.txt-spacetop-double {
+  margin-top: 4rem;
+}
+
+.txt-spacebottom {
+  margin-bottom: 2rem;
+}
+
+.txt-space-0 {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-margin {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-margin8 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-caption-margin {
+  margin-top: 100px;
+}
+
+.txt-padding {
+  padding: 2rem;
+}
+
+/* ///////////////////CLASES PARA NAVBAR DE BOOSTRAP/////////////////// */
 /* Estilo para los enlaces de navbar */
 .navbar-nav .nav-link {
-  color: #fff; /* Cambia el color del texto de los enlaces */
+  color: #FFF;
+  padding-left: 15px;
 }
-
-/* Estilo para los enlaces al pasar el mouse */
 .navbar-nav .nav-link:hover {
-  color: #00A8CC; /* Cambia el color del texto de los enlaces al pasar el mouse */
+  color: #00A8CC;
 }
 
-/* Estilo para boton de search en NAVBAR */
-.btn-custom {
-  background: linear-gradient(to bottom, #0c7b93, #243f68); /* Degradado de naranja a rojo */
-  border: none; /* Sin borde */
-  color: #ffffff; /* Color del texto del botón */
-  /* Puedes añadir más estilos según sea necesario */
-}
-
+/* Estilos para boton hamburguesa "toggler" de NAVBAR */
 .navbar-toggler-icon {
-  /* Cambiar el color del ícono a blanco */
+  /* Cambiar el color del ícono de negro a blanco */
   filter: invert(1);
 }
 
 .navbar-toggler {
-  border: none; /* Quitar el borde */
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.navbar-custom-margin {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form.d-flex {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Estilo para boton de search en NAVBAR */
+.btn-custom {
+  background: linear-gradient(to bottom, #0c7b93, #243f68);
+  border: none;
+  color: #FFF;
+}
+
+/* Fondo tranparente de NAVBAR */
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
 }
 
 /* ///////////////////Clases para CARDS/////////////////// */
 .cards {
   max-height: 28rem;
-  background-color: #142850;
+  background-color: #27496d;
   border-radius: 14px;
   padding: 1.5rem;
   margin: 1.5rem;
@@ -178,30 +246,17 @@ a {
   height: auto;
   margin-bottom: 1rem;
 }
-.cards__title {
-  font-size: 1rem;
-  margin-top: 1rem;
-  font-weight: 600;
-  color: #00A8CC;
-}
-.cards__subtitle {
-  font-size: 0.8rem;
-  font-weight: 400;
-}
-.cards__description {
-  font-size: 0.8rem;
-  text-align: center;
-}
 .cards__btn {
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
-  color: #ffffff;
+  color: #FFF;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
+  width: auto;
   width: 100%;
 }
 .cards__button__img {
@@ -210,33 +265,36 @@ a {
   margin-left: 0.5rem;
 }
 
+/* ///////////////////Hover para CARDS/////////////////// */
 .contenedor-hoverimg {
-  position: relative; /* El contenedor va siempre tenga posición relativa */
+  position: relative;
+  /* El contenedor va siempre en posición relativa */
 }
 .contenedor-hoverimg .hover-imagen {
-  position: absolute; /* Coloca la imagen hover en la misma posición que la imagen original */
+  position: absolute;
+  /* Coloca la imagen hover en la misma posición que la imagen original */
   top: 0;
   left: 0;
-  opacity: 0; /* Oculta la imagen hover inicialmente */
-  transition: opacity 0.5s ease; /* Transición de opacidad */
+  opacity: 0;
+  /* Oculta la imagen hover inicialmente */
+  transition: opacity 0.5s ease;
+  /* Transición de opacidad */
 }
 .contenedor-hoverimg:hover .hover-imagen {
-  opacity: 1; /* Muestra la imagen hover al hacer hover sobre el contenedor */
+  opacity: 1;
+  /* Muestra la imagen hover al hacer hover sobre el contenedor */
 }
 
-/*////////////////////////// FORM ////////////////////////// */
+/*////////////////////////// FORM de CONTACTO ////////////////////////// */
 .contact-form {
-  width: 80%;
+  width: 100%;
+  max-width: 500px;
 }
 
-.form-group {
-  margin-bottom: 30px;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-group input[type=text],
@@ -247,57 +305,62 @@ a {
   font-size: 0.9rem;
   width: 100%;
   padding: 0.5rem;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
+  border: 1px solid #C1DADF;
+  border-radius: 10px;
+  margin-top: 10px;
 }
-
-.form-group select option {
-  color: #27496d; /* Cambiar aquí el color del texto */
-}
-
 .form-group textarea {
-  height: 100px;
+  height: 150px;
 }
 
-.form-group .radio-group {
-  margin-bottom: 10px;
-}
-.form-group .radio-group label {
-  display: inline-block;
-  margin-right: 10px;
-  color: #27496d;
-}
-
-.submit-btn {
-  font-size: 0.9rem;
+.submit-btn-contact {
+  font-size: 1rem;
   text-align: center;
   background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
-  color: #ffffff;
+  color: #FFF;
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
-  width: 50%;
+  width: auto;
 }
 
-.radio-container {
+/*////////////////////////// FORM de TIENDA PREVENTA ////////////////////////// */
+.tienda-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* Aplica el mixin para centrar los radios */
-  margin-top: 10px;
+  flex-direction: row;
+  text-align: center;
 }
 
-.radio-container input[type=radio],
-.radio-container label {
-  margin: 0 5px; /* Espacio entre radios y etiquetas */
+.submit-btn-tienda {
+  font-size: 1rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #00A8CC, #0c7b93);
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.head-carrousel {
+  background: linear-gradient(to bottom, #27496d, #142850);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
 }
 
 /* ///////////////////Clases para Acordion de Boostrap FAQS/////////////////// */
 .custom-accordion-text {
-  color: #243f68; /* Cambia el color del texto de las respuestas */
+  color: #243f68;
+  /* Cambia el color del texto de las respuestas */
 }
 
 .accordion-button:not(.collapsed) {
@@ -307,23 +370,27 @@ a {
 
 .accordion-button {
   background-color: #27496d;
-  color: #fff;
+  color: #FFF;
 }
 
 .accordion-button.collapsed {
-  color: #fff; /* Cambia el color de la fuente cuando el botón está colapsado */
+  color: #FFF;
+  /* Cambia el color de la fuente cuando el botón está colapsado */
 }
 
 .accordion-button:not(.collapsed) {
-  color: #fff; /* Cambia el color del título del ítem cuando el acordeón está desplegado */
+  color: #FFF;
+  /* Cambia el color del título del ítem cuando el acordeón está desplegado */
 }
 
 /*////////////////////////// FOOTER ////////////////////////// */
 .footer-flex {
   background-position: center bottom;
   background-image: url("../assets/footer-01.png");
-  background-size: cover; /* Para cubrir todo el contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  /* Para cubrir todo el contenedor */
+  background-repeat: no-repeat;
+  /* Evita que la imagen se repita */
   height: 12.75rem;
 }
 .footer-flex ul {
@@ -356,24 +423,17 @@ a {
     font-size: 1.5rem;
   }
   .cards__description {
-    font-size: 0.9rem;
-  }
-  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-  .Pat__titulo-01b {
-    font-size: 1.2rem;
-  }
-  .Pat__titulo-02r {
     font-size: 1rem;
   }
-  .Pat__titulo-03b {
-    font-size: 1rem;
+  .pat__titulo-01b {
+    font-size: 2rem;
   }
-  .Pat__titulo-04r {
-    font-size: 0.8rem;
+  .pat__titulo-02r {
+    font-size: 1.5rem;
   }
 }
 /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .cards__title {
     font-size: 1.5rem;
   }
@@ -383,29 +443,27 @@ a {
   .cards__description {
     font-size: 1rem;
   }
-  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-  .Pat__titulo-01b {
-    font-size: 1.2rem;
+  .pat__titulo-01b {
+    font-size: 2rem;
   }
-  .Pat__titulo-02r {
-    font-size: 1rem;
+  .pat__titulo-02r {
+    font-size: 1.5rem;
   }
 }
 /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .cards__subtitle {
     font-size: 1rem;
   }
-  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-  .Pat__titulo-01b {
-    font-size: 1.2rem;
+  .pat__titulo-01b {
+    font-size: 2rem;
   }
-  .Pat__titulo-02r {
-    font-size: 1rem;
+  .pat__titulo-02r {
+    font-size: 1.5rem;
   }
 }
 /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .cards__title {
     font-size: 1.5rem;
   }
@@ -415,29 +473,24 @@ a {
   .cards__description {
     font-size: 1rem;
   }
-  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-  .Pat__titulo-01b {
-    font-size: 1.7rem;
+  .pat__titulo-01b {
+    font-size: 2rem;
   }
-  .Pat__titulo-02r {
-    font-size: 1.3rem;
+  .pat__titulo-02r {
+    font-size: 1.5rem;
   }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   .cards__subtitle {
     font-size: 1rem;
   }
-  /* Estilos font mapping para 01b y 02r hasta 1200 xl*/
-  .Pat__titulo-01b {
-    font-size: 2rem;
-  }
-  .Pat__titulo-02r {
-    font-size: 1.3rem;
+  .cards__title {
+    font-size: 1rem;
   }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
   .cards__title {
     font-size: 1.5rem;
   }
@@ -446,12 +499,6 @@ a {
   }
   .cards__description {
     font-size: 1rem;
-  }
-  .Pat__titulo-01b {
-    font-size: 2.5rem;
-  }
-  .Pat__titulo-02r {
-    font-size: 1.5rem;
   }
 }
 

@@ -1,28 +1,44 @@
 /* ///////////////////Generales/////////////////// */
 html {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-    margin: 0px;
-    background-color: #142850;
+  margin: 0px;
+  background-color: $color-01;
 }
 
 .col {
-    @include no-mp;
+  @include no-mp;
+}
+
+a {
+  color: $color-05;
+  font-size: 1rem;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
 }
 
 
-a {
-    color:$color-05;
-    font-size: 1rem;
-  }
-
-
-  /* ///////////////////Divisor de seccion/////////////////// */
+/* ///////////////////Divisor de seccion/////////////////// */
 .divisor-01 {
-    background: linear-gradient(to bottom, #0d1a35, #142850); /* Degradado de colores */
-    height: 3rem;
-  }
+  background: linear-gradient(to bottom, $color-00, $color-01);
+  /* Degradado de colores */
+  height: 3rem;
+}
 
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+}
 
+/* ///////////////////Quienes Somos Container/////////////////// */
+.quienessomos-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+ 

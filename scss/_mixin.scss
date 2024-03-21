@@ -1,23 +1,28 @@
-@mixin alineaciones($justi, $align){
-    height: $height;
-    align-items: $align;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@mixin flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@mixin img-auto {
+  max-width: 100%;
+  height: auto;
+}
 
-  @mixin img-auto {
-    max-width: 100%;
-    height: auto;
-  }
+@mixin no-mp {
+  margin: 0;
+  padding: 0;
+}
 
-  @mixin no-mp {
-    margin: 0;
-    padding: 0;
-  }
-
- 
-  
+@mixin btn-look {
+  font-size: 1rem;
+  text-align: center;
+  background-image: linear-gradient(to bottom, $color-05, $color-04);
+  color: $color-07;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: auto;
+}
