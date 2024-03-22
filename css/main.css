@@ -116,12 +116,6 @@ a {
   --bs-gutter-y: 0;
 }
 
-/* ///////////////////Quienes Somos Container/////////////////// */
-.quienessomos-container {
-  width: 100%;
-  max-width: 500px;
-}
-
 .txt-center {
   text-align: center;
 }
@@ -155,16 +149,50 @@ a {
   padding: 0;
 }
 
+/* ///////////////////START Custom MARGINS and CONTAINERS/////////////////// */
 .custom-margin {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.custom-margin8 {
-  width: 80%;
+.custom-margin-faqs {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.custom-margin8 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.quienessomos-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.custom-carousel {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.custom-carousel .carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+/* ///////////////////START Custom IMAGE para distintos componenetes/////////////////// */
+.custom-image1 {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .carousel-caption-margin {
@@ -286,11 +314,6 @@ form.d-flex {
 }
 
 /*////////////////////////// FORM de CONTACTO ////////////////////////// */
-.contact-form {
-  width: 100%;
-  max-width: 500px;
-}
-
 .form-container {
   display: flex;
   justify-content: center;
@@ -416,77 +439,81 @@ form.d-flex {
 /* ///////////////////MEDIA QUERIES DE BOOSTRAP/////////////////// */
 /* Estilos para dispositivos extra small en ---BOOST NO TIENE CLASE */
 @media (max-width: 575.98px) {
-  .cards__title {
-    font-size: 1.5rem;
-  }
-  .cards__subtitle {
-    font-size: 1.5rem;
-  }
-  .cards__description {
+  .pat__titulo-01b {
     font-size: 1rem;
   }
-  .pat__titulo-01b {
-    font-size: 2rem;
-  }
   .pat__titulo-02r {
-    font-size: 1.5rem;
+    font-size: 0.8rem;
+  }
+  /* CUSTOM MARGIN */
+  .custom-margin {
+    width: 90%;
+  }
+  /* CUSTOM CARROUSEL */
+  .custom-carousel {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
 @media (max-width: 576px) {
-  .cards__title {
-    font-size: 1.5rem;
-  }
-  .cards__subtitle {
-    font-size: 1.5rem;
-  }
-  .cards__description {
-    font-size: 1rem;
-  }
   .pat__titulo-01b {
     font-size: 2rem;
   }
   .pat__titulo-02r {
     font-size: 1.5rem;
+  }
+  /* CUSTOM MARGIN */
+  .custom-margin {
+    width: 90%;
+  }
+  /* CUSTOM CARROUSEL */
+  .custom-carousel {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
 @media (max-width: 768px) {
-  .cards__subtitle {
-    font-size: 1rem;
-  }
   .pat__titulo-01b {
     font-size: 2rem;
   }
   .pat__titulo-02r {
     font-size: 1.5rem;
+  }
+  /* CUSTOM MARGIN */
+  .custom-margin {
+    width: 90%;
+  }
+  /* CUSTOM CARROUSEL */
+  .custom-carousel {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
 @media (max-width: 992px) {
-  .cards__title {
-    font-size: 1.5rem;
-  }
-  .cards__subtitle {
-    font-size: 1.5rem;
-  }
-  .cards__description {
-    font-size: 1rem;
-  }
   .pat__titulo-01b {
     font-size: 2rem;
   }
   .pat__titulo-02r {
     font-size: 1.5rem;
   }
+  /* CUSTOM MARGIN */
+  .custom-margin {
+    width: 80%;
+  }
+  /* CUSTOM CARROUSEL */
+  .custom-carousel {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
 @media (max-width: 1200px) {
-  .cards__subtitle {
-    font-size: 1rem;
-  }
-  .cards__title {
-    font-size: 1rem;
+  /* CUSTOM MARGIN */
+  .custom-margin {
+    width: 90%;
   }
 }
 /* Estilos para dispositivos extra grandes (igual o mayor a 1400px) en ---BOOST xxl */

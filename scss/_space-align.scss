@@ -31,16 +31,51 @@
   padding: 0;
 }
 
+/* ///////////////////START Custom MARGINS and CONTAINERS/////////////////// */
 .custom-margin {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.custom-margin8 {
-  width: 80%;
+.custom-margin-faqs {
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.custom-margin8 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.quienessomos-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.custom-carousel {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.custom-carousel .carousel-inner img {
+  width: 100%;
+  height: auto;
+
+}
+
+/* ///////////////////START Custom IMAGE para distintos componenetes/////////////////// */
+.custom-image1 {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .carousel-caption-margin {

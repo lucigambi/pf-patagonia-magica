@@ -1,80 +1,72 @@
 /* ///////////////////MEDIA QUERIES DE BOOSTRAP/////////////////// */
 /* Estilos para dispositivos extra small en ---BOOST NO TIENE CLASE */
 @media (max-width: 575.98px) {
-    .cards__title {
-        font-size: 1.5rem;
-    }
-
-    .cards__subtitle {
-        font-size: 1.5rem;
-    }
-
-    .cards__description {
+    .pat__titulo-01b {
         font-size: 1rem;
     }
 
-    .pat__titulo-01b {
-        font-size: 2rem;
+    .pat__titulo-02r {
+        font-size: 0.8rem;
     }
 
-    .pat__titulo-02r {
-        font-size: 1.5rem;
+    /* CUSTOM MARGIN */
+    .custom-margin {
+        width: 90%;
+    }
+
+    /* CUSTOM CARROUSEL */
+    .custom-carousel {
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
-
 /* Estilos para dispositivos pequeños (igual o mayor a 576px) en ---BOOST sm */
 @media (max-width: 576px) {
-    .cards__title {
-        font-size: 1.5rem;
-    }
-
-    .cards__subtitle {
-        font-size: 1.5rem;
-    }
-
-    .cards__description {
-        font-size: 1rem;
-    }
-
     .pat__titulo-01b {
         font-size: 2rem;
     }
 
     .pat__titulo-02r {
         font-size: 1.5rem;
+    }
+
+    /* CUSTOM MARGIN */
+    .custom-margin {
+        width: 90%;
+    }
+
+    /* CUSTOM CARROUSEL */
+    .custom-carousel {
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 /* Estilos para dispositivos medianos (igual o mayor a 768px) en ---BOOST md */
 @media (max-width: 768px) {
-    .cards__subtitle {
-        font-size: 1rem;
-    }
-
     .pat__titulo-01b {
         font-size: 2rem;
     }
 
     .pat__titulo-02r {
         font-size: 1.5rem;
+    }
+
+    /* CUSTOM MARGIN */
+    .custom-margin {
+        width: 90%;
+    }
+
+    /* CUSTOM CARROUSEL */
+    .custom-carousel {
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 /* Estilos para dispositivos grandes (igual o mayor a 992px) en ---BOOST lg */
 @media (max-width: 992px) {
-    .cards__title {
-        font-size: 1.5rem;
-    }
-
-    .cards__subtitle {
-        font-size: 1.5rem;
-    }
-
-    .cards__description {
-        font-size: 1rem;
-    }
-
     .pat__titulo-01b {
         font-size: 2rem;
     }
@@ -82,16 +74,25 @@
     .pat__titulo-02r {
         font-size: 1.5rem;
     }
+
+    /* CUSTOM MARGIN */
+    .custom-margin {
+        width: 80%;
+    }
+
+    /* CUSTOM CARROUSEL */
+    .custom-carousel {
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 
 /* Estilos para dispositivos extra grandes (igual o mayor a 1200px) en ---BOOST xl */
 @media (max-width: 1200px) {
-    .cards__subtitle {
-        font-size: 1rem;
-    }
 
-    .cards__title {
-        font-size: 1rem;
+    /* CUSTOM MARGIN */
+    .custom-margin {
+        width: 90%;
     }
 }
 
